@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  
+}
+
+button{
+  cursor: pointer;
+}
+
+.mainLanches {
+  display: flex;
+}
+.fotoLogo {
+  width: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 4px rgb(223, 213, 213);
+  padding: 10px;
+  
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+}
+
+.menuLink {
+  display: inline-flex;
+  color: #f5f5f5;
+  border: 2px solid #2e245e;
+  background-color: #2e245e;
+  padding: 7px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 9px;
+}
+
+.menuLink:hover {
+  background-color: #37268c;
+  border-color: #37268c;
+}
+
+.pesquisar {
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+
+  gap: 4px;
+  margin-bottom: 30px;
+}
+
+.barraPesquisar {
+  border: 2px solid #2e245e;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+
+.barraPesquisar:focus {
+   background-color: white;
+  
+}
+
+.botaoPesquisar {
+  display: flex;
+  border: 2px solid #2e245e;
+  background-color: #2e245e;
+  color: #f5f5f5;
+  border-radius: 4px;
+  padding: 3px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.botaoPesquisar:hover {
+  background-color: #37268c;
+  border: 2px solid #37268c;
+}
+.infos {
+  width: 30%;
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+
+  flex-direction: column;
+  margin-right: 40px;
+  margin-top: 30px;
+  gap: 4px;
+  margin-bottom: 30px;
+}
+.carrinhoCompras {
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 7px 47px 4px #2e245e;
+  background-color: #f5f5f5;
+  font-size: 13px;
+  color: #333333;
+  width: 400px;
+  height: 425px;
+  
+  
+}
+.nomeCarrinhoCompras {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+    margin-bottom: 20px;
+  background-color: #2e245e;
+  color: #f5f5f5;
+  width: 100%;
+ 
+  border-radius: 3px;
+
+}
+
+
+
+.nameCarrinhoCompras{
+   color: #f5f5f5;
+   padding: 10px;
+  font-size: 18px;
+
+}
+.divNameCompleto{
+
+ 
+    justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  
+}
+
+
+
+.contador {
+  display: flex;
+  font-size: 15px;
+  color: #333333;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.total {
+  display: 
+  flex;
+
+  background-color: #2e245e;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+.total:hover {
+  background-color: #37268c;
+}
+
+
+.image2 {
+  display: flex;
+  width: 100px;
+  max-height: 100px;
+  background-color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.nomeLanche2 {
+  display: flex;
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.botaoRemover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+  border: 1px solid #2e245e;
+  color: white;
+  background-color: #2e245e;
+  padding: 3px;
+  margin-top: 10px;
+  padding: 5px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.precoLanche2 {
+  display: flex;
+  color: #333333;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.liCarrinho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+  border-bottom: 1px solid #2e245e;
+
+  opacity: 1;
+}
+.liCarrinho:nth-child(n) {
+  opacity: 1;
+}
+.liCarrinho:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+.divInfoLanche {
+  display: list-item;
+  width: 150px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+ 
+  display: flex;
+  width: 100%;
+  height: 130px;
+  
+
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+.vitrine {
+   display: flex;
+   margin-top: 15px;
+   width: 1000px;
+   height: 100%;
+  
+}
+.liLanches {
+  border: 2px solid #f5f5f5;;
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+    text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;;
+  border-radius: 10px;
+   width: 207px;
+   
+  
+  min-height: 300px;
+}
+
+
+
+.tipoLanche {
+ 
+  width: 60px;
+  padding: 5px;
+  color: #f5f5f5;
+  background-color: #2e245e;
+  font-size: 10px;
+  
+}
+.nomeLanche {
+ 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+margin-top: 13px;
+  color: #333333;
+  font-size: 16px;
+}
+.infoLanche {
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+margin-top: 7px;
+  font-size: 12px;
+  color: #828282;
+  
+
+}
+.precoLanche {
+ 
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+margin-top: 5px;
+  color: #333333;
+  font-size: 14px;
+}
+.botaoAdicionar { 
+  padding: 2px;
+  font-size: 8px;  
+  background-color: #2e245e;
+  color: #f5f5f5;
+  border: 2px solid #2e245e;
+  margin-top: 15px;
+}
+.botaoAdicionar:hover {
+  background-color: #37268c;
+  border-color: #37268c;
+}
+
+.ulLanches {
+  
+  display: flex;
+ gap: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+ 
+
+}
+
+.lancheCard {
+  display: flex;
+  
+}
+
+.divCardCompleto {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #f5f5f5;
+  padding: 5px;
+  border-radius: 9px;
+  background-color: #f5f5f5;
+  height: 300x;
+  width: 204px;
+}
+
+.liLanches:nth-child(n) {
+  opacity: 1;
+}
+.liLanches:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  border-color: #37268c;
+}
+
+
+.nomeLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #37268c;
+
+}
+
+.divNomeLogo{
+ 
+ display: flex;
+ width: 900px;
+font-size: 10px;
+font-family:'Courier New', Courier, monospace;
+
+}
+
